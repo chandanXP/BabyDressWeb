@@ -1,0 +1,30 @@
+.topnav a:hover {
+     border-bottom: 3px solid red;
+}
+.navbar{
+     background-color:  azure;
+     color: #C0C0C0;
+     height: 10vh;
+}
+.btn{
+     border: 1px solid #fd5da8;
+}
+.form-control{
+     border: 1px solid #fd5da8;
+}
+.nav-link btn{
+     color: #C0C0C0;
+}
+.sortItem{
+     /* border:2px solid black; */
+     height: 10vh;
+     /* padding: 4px; */
+}
+.shopingSection{
+     border:2px solid cyan;
+     height: 100%;
+     background-color: #fd5da8;
+}
+.dropDown{
+     border:2px soli brown;
+}
