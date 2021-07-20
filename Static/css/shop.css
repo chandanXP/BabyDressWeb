@@ -1,5 +1,5 @@
 .topnav a:hover {
-     border-bottom: 3px solid red;
+     border-bottom: 3px solid #fd5da8;
 }
 .navbar{
      background-color:  azure;
@@ -21,10 +21,20 @@
      /* padding: 4px; */
 }
 .shopingSection{
-     border:2px solid cyan;
+     /* border:2px solid cyan; */
      height: 100%;
      background-color: #fd5da8;
+
+     padding-bottom: 30px;
 }
 .dropDown{
      border:2px soli brown;
+}
+
+.footer{
+     height: 45vh;
+     /* border: 2px solid green; */
+     background: #494f55;
+     color: white;
+     padding-top: 18px;
 }

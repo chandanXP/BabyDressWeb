@@ -1,60 +1,67 @@
 .topnav a:hover {
-     border-bottom: 3px solid red;
+     border-bottom: 3px solid #fd5da8;
 }
 .navbar{
      background-color:  azure;
      color: #C0C0C0;
      height: 10vh;
 }
-.btn{
+/* .btn{
      border: 1px solid #fd5da8;
-}
-.form-control{
+} */
+/* .form-control{
      border: 1px solid #fd5da8;
-}
+}  */
+
 .nav-link btn{
      color: #C0C0C0;
 }
 
 .customBody{
-     border: 2px solid tan;
+     /* border: 2px solid tan; */
      height: 100%;
+     background-color: azure;
 }
 .banner{
      color: #fd5da8;
-     border: 2px solid  firebrick;
+     /* border: 2px solid  firebrick; */
      height: 100%;
      background-image: url('/img/banner.jpg');
+     
+     background-color: #000000;
      width: fit-content;
      /* background-size: contain; */
-     border: 2px solid #fd5da8;
+     /* border: 2px solid #fd5da8; */
      background-repeat: no-repeat;
      height: 60vh;
      background-size: 100% 100%;
+     
 }
+
+ 
 .customContent{
-     border: 2px solid hotpink;
+     /* border: 2px solid hotpink; */
      height: 100%;
 }
 .formSection{
-     border: 2px solid slateblue;
+     /* border: 2px solid slateblue; */
      height: 100%;
 }
 .slideImg{
      background-image: url('/img/pic3.webp');
      color: #fd5da8;
-     border: 2px solid  firebrick;
+     /* border: 2px solid  firebrick; */
      height: 100%;
      width: fit-content;
      /* background-size: contain; */
-     border: 2px solid teal;
+     /* border: 2px solid teal; */
      background-repeat: no-repeat;
      height: 60vh;
      background-size: 100% 100%;
 }
-.desc{
+/* .desc{
      border: 2px solid aqua;
-}
+} */
 /* .gridSection{
      background-image: url('/img/pic3.webp');
      border: 2px solid #fd5da8;
@@ -64,4 +71,13 @@
 } */
 .gridSection:hover{
      opacity: 0.8;
+     transition: 0.5s;
+     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3)
+}
+.footer{
+     height: 45vh;
+     /* border: 2px solid green; */
+     background: #494f55;
+     color: white;
+     padding-top: 18px;
 }

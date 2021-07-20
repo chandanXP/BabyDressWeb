@@ -1,5 +1,5 @@
 .topnav a:hover {
-     border-bottom: 3px solid red;
+     border-bottom: 3px solid #fd5da8;
 }
 .navbar{
      background-color:  azure;
@@ -16,31 +16,33 @@
      color: #C0C0C0;
 }
 .sidenav{
-     border: 2px solid #fd5da8;
+     /* border: 2px solid #fd5da8; */
+     padding: 16px;
+     margin-top: 6px;
      background-color: azure;
      border-radius: 4px;
 
 }
 .body{
      height: 100%;
-     border: 2px solid red;
+     /* border: 2px solid red; */
      background-color: pink;
 }
 .options{
      height: 100%;
-     border: 2px solid teal;
+     /* border: 2px solid teal; */
      /* width: 100%; */
 }
 .footer{
-     height: 25vh;
-     border: 2px solid green;
+     height: 45vh;
+     /* border: 2px solid green; */
      background: #494f55;
      color: white;
+     padding-top: 18px;
 }
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
 .row.content {height: 550px}
     
-/* Set gray background color and 100% height */
 .sidenav {
   background-color: #f1f1f1;
   height: 100%;
@@ -48,7 +50,7 @@
 .startButton{
      padding: 6px;
 
-     border:2px solid slateblue;
+     /* border:2px solid slateblue; */
 }
     
 /* On small screens, set height to 'auto' for the grid */
@@ -59,7 +61,7 @@
 .well{
      height: 100%;
 
-     border: 2px solid yellow;
+     /* border: 2px solid yellow; */
 }
 .box{
      height: 100%;
@@ -67,12 +69,25 @@
 }
 .banner{
      padding: 6px;
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
 }
 
-.carouselExampleIndicators{
+/* .carouselExampleIndicators{
      border: 2px solid palegreen;
-}
- .info{
+} */
+ /* .info{
      border: 2px solid darkorange;
- }
+
+ } */
+
+.carousel-item img{
+     /* background-image: url('/img/pic3.webp'); */
+     /* border: 2px solid #fd5da8; */
+     height: 45px;
+     /* width: 40%; */
+     background-repeat: no-repeat;
+     /* background-size: 100% 100%; */
+     background-size: cover;
+
+     height: 400px;
+}
